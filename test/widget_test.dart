@@ -12,7 +12,7 @@ import 'package:climate_viewer/main.dart';
 import 'package:flutter/material.dart'; // <-- для SizedBox та інших виджетів
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
+  testWidgets('Smoke test minimal', (WidgetTester tester) async {
     await tester.pumpWidget(const SizedBox());
     expect(find.byType(SizedBox), findsOneWidget);
   });
